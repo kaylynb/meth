@@ -1,0 +1,30 @@
+{
+  "name": "meth",
+  "version": "0.0.1",
+  "description": "Node.js Configuration (Un)Management",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kaylynb/meth.git"
+  },
+  "author": "Kaylyn Bogle",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/kaylynb/meth#readme",
+  "dependencies": {
+    "diff": "^2.2.1",
+    "ramda": "^0.18.0",
+    "shellwords": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-mocha": "^2.2.0",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}

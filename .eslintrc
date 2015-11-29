@@ -1,0 +1,13 @@
+{
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"comma-dangle": [2, "never"],
+		"semi": [2, "never"],
+		"quotes": [2, "single", "avoid-escape"],
+		"no-multi-spaces": [0],
+		"no-mixed-spaces-and-tabs": [2, "smart-tabs"]
+	}
+}
